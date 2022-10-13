@@ -19,3 +19,10 @@ Note that most input prompts are case-sensitive.
 Currently the GUI only has the login/register pages, for admin and customers.
 
 Classes are organized based on Clean Architecture.
+
+Contributions (from the design document - the final contributions of each person)
+Billy: Graphic UI with login and registeration features, and main page for customer and admin users with other feature pages (developed from text UI version) for future developments. Tests for tickets entity and use cases. Fixed some errors (mainly Ticket ID, time-date representations) for entity class.
+Daniel: GenerateFlights, CancelAllFlights, ClearAllUsers. Repackaged Tests into appropriate test folders and wrote tests for nearly all methods in all UseCases. 
+Karl:  Implement the Singleton design pattern in the UserTracker. Add methods in the Console class to prompt the users for integer input. Refactor classes related to payments (change to the appropriate data types for storing card numbers and pins). Refactor Presenters and Controllers (user doesn’t need to enter the username repeatedly, add exception handlings, and other minor refactorings).
+Mani: Update of UML diagram, design notes on Clean architecture/SOLID, implementation of Payment method (entity + use case + presenter + gateway), Database repackaging, Singleton Design pattern implementation for FlightTracker, User/Customer functionality refactoring
+Taymoor: Implemented the Membership features (MembershipMenu, MembershipMenuC, LoyaltyPoints) while refactoring related classes. Adjusted the remaining menus to streamline prompts and test for errors/lack of exit conditions. Design Document extension for Clean Architecture.
